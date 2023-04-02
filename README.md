@@ -6,16 +6,17 @@ Using Terraform modules the code is DRY and Terraform commands can be run in the
 To modify the values, go into the variables.tf and change the current values to desired
 
 # here's the directory tree:
+```bash
 .
 ├── Base-infrastructure      
 │   ├── aws-alb
 │   │   ├── main.tf
-│   │   ├── outputs.tf       
+│   │   ├── outputs.tf
 │   │   ├── terraform.tfstate
-│   │   └── variables.tf     
+│   │   └── variables.tf
 │   ├── aws-security-groups
-│   │   ├── main.tf        
-│   │   ├── outputs.tf     
+│   │   ├── main.tf
+│   │   ├── outputs.tf
 │   │   ├── terraform.tfstate
 │   │   └── variables.tf
 │   └── aws-vpc-subnet
@@ -40,3 +41,4 @@ To modify the values, go into the variables.tf and change the current values to 
 └── variables.tf
 
 7 directories, 24 files
+```
