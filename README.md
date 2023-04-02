@@ -12,18 +12,14 @@ To modify the values, go into the variables.tf and change the current values to 
 │   ├── aws-alb
 │   │   ├── main.tf
 │   │   ├── outputs.tf
-│   │   ├── terraform.tfstate
 │   │   └── variables.tf
 │   ├── aws-security-groups
 │   │   ├── main.tf
 │   │   ├── outputs.tf
-│   │   ├── terraform.tfstate
 │   │   └── variables.tf
 │   └── aws-vpc-subnet
 │       ├── main.tf
 │       ├── outputs.tf
-│       ├── terraform.tfstate
-│       ├── terraform.tfstate.backup
 │       └── variables.tf
 ├── README.md
 ├── ecs-infrastructure
@@ -36,9 +32,6 @@ To modify the values, go into the variables.tf and change the current values to 
 │       ├── outputs.tf
 │       └── variables.tf
 ├── main.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
 └── variables.tf
 
-7 directories, 24 files
 ```
